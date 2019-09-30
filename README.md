@@ -6,6 +6,11 @@ Essa biblioteca foi feita para ser utilizada como submódulo no [STM32ProjectTem
 
 Os arquivos podem ser obtidos no [site da SEGGER](https://www.segger.com/products/debug-probes/j-link/technology/about-real-time-transfer/).
 
+ ## Requisitos
+
+Para utilizar a biblioteca é necessário ter instalado:
+
+* [J-Link](https://www.segger.com/downloads/jlink/)
 
  ## Adicionando o submódulo ao projeto
 
