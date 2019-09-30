@@ -14,3 +14,5 @@ USE_RTT_LIB := 1
 rtt:
 	$(AT)JLinkGDBServer -device $(DEVICE) -nohalt -if SWD -speed 4000 -port 2331 -vd -singlerun -timeout 0 -nogui > /dev/null &
 	$(AT)JLinkRTTClient
+
+.PHONY: rtt
